@@ -16,7 +16,7 @@ The motivation behind writting faster extensions is that that currently PyTorch 
       Extension runtime: 0.6036 secs 
       Final Speedup: No increase
 
-  ### 2. Shared iGPU-CPU [OpenMP/OpenCL] :
+  ### 2. Shared iGPU-CPU [3:1] [OpenMP/OpenCL] :
       Native PyTorch runtime: 0.30904 secs
       Extension runtime: 0.28835 secs 
       Final Speedup: ~13%
