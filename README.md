@@ -1,6 +1,6 @@
 # PyTorch-Extensions-for-GPU-CPU
-This repo contains PyTorch Extensions for 2D convolutional operations written wiht C++, OpenGL, OPpenMP, and Boost Compute.
-The motivation behind writting faster extensions is that that currently PyTorch native 2D convolution is implmenetd using CuDNN,but does not support integrated GPU support currently. Thus I have written extensions for running convolution operations on CPU, integrated GPU and shared CPU/GPU.
+This repo contains PyTorch Extensions for 2D convolutional operations written with C++, OpenGL, OpenMP, and Boost Compute.
+The motivation behind writting faster extensions is that that currently PyTorch native 2D convolution is implmented using CuDNN,but does not support integrated GPU support currently. Thus I have written extensions for running convolution operations on CPU, integrated GPU and shared CPU/GPU.
 
 **Hardware: Intel(R) Core(TM) i7-14700HX (Raptor Lake), Intel(R) UHD Graphics**
 
